@@ -41,6 +41,9 @@ public class BooksPage {
     @FindBy(xpath = "//tbody/tr[1]/td[6]")
     public WebElement bookYear;
 
+    @FindBy(xpath = "//*[@id=\"tbl_books\"]/tbody/tr[1]/td[5]")
+    public WebElement bookCategory;
+
 
      public void navigateModule(String moduleName){
          //books
