@@ -20,3 +20,7 @@ import org.junit.runner.RunWith;
 public class TestRunner {
 
 }
+
+/*
+This class is responsible to run features as Class level
+*/
